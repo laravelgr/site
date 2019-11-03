@@ -11401,8 +11401,33 @@ video {
   z-index: auto;
 }
 
+.laravel-title{
+  font-size: 3.5em;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.laravel-subtitle{
+  margin-top:-20px;
+  font-size: 2em;
+  color:gray;
+  font-family: 'Dancing Script', cursive;
+}
+
+.socials {
+  padding:10px;
+}
+
 .socials  img {
   width:40px;
+  opacity: .5;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.socials img:hover{
+  opacity: 1;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
 
 @media (min-width: 640px) {
